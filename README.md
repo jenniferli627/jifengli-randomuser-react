@@ -1,37 +1,4 @@
-Overview:
-Build an application using the Random User Generator API. Use your imagination for the UI/UX flow of the application. Stick to the requirements but do not hold back on doing more if you can. This application should include at least 3 pages (Landing Page, Dashboard Page, Profile Page).
-
-User story:
-As a user of this application, I would like to navigate to the dashboard and quickly filter for any person in the system and have the option to see a more detailed view of that person.
-
-Requirements:
-•	React 16 or greater
-o	Functional components only
-•	Redux
-o	For state management
-	Utilize Reducers and Action Creators
-•	CSS Libraries
-•	Bootstrap 4 or later
-•	Tailwind
-
-Pages:
-•	Landing Page:
-o	Use your imagination
-•	Dashboard Page:
-o	Displays users
-	Should be paginated
-•	Filter users by any part of their full name
-•	Add a recently viewed button/link to quickly go back to the last viewed person
-•	User Profile Page:
-•	Display as much information from the user object provided by the API
-•	Format dates so they are pretty and easy to read
-•	Display time remaining until the person's birthday.
-
-Resources:
-o	API: https://randomuser.me/documentation#introNote: The API should fetch 100 random users
-
-
-
+o	API: https://randomuser.me/documentation#introNote
 
 # Getting Started with Create React App
 
