@@ -1,0 +1,60 @@
+<Provider store={store}>
+       
+        <Container maxWidth="lg">
+          <Routes>
+            <Route exact path='/' element={<UserListContainer />} />
+            <Route exact path='/user/:id' element={ <UserDetailContainer /> } />
+          </Routes>
+        </Container>
+        
+      </Provider>
+
+
+
+       <><div class="table-title">
+      <img src = {users.picture.large} />
+      <h3>Time: {date_create}</h3>
+    </div><table class="table-fill">
+        <tbody class="table-hover">
+        <tr>
+            <td class="text-left">Frist Name</td>
+            <td class="text-left">{users.name.first}</td>
+        </tr>
+        <tr>
+            <td class="text-left">Last Name</td>
+            <td class="text-left">{users.name.last}</td>
+        </tr>
+        <tr>
+            <td class="text-left">Gender</td>
+            <td class="text-left">{users.gender}</td>
+        </tr>
+        <tr>
+            <td class="text-left">Age</td>
+            <td class="text-left">{users.dob.age}</td>
+        </tr>
+        <tr>
+            <td class="text-left">Time to Birthday</td>
+            <td class="text-left">{users.dob.date}</td>
+        </tr>
+        <tr>
+            <td class="text-left">City</td>
+            <td class="text-left">{users.location.city}</td>
+        </tr>
+        <tr>
+            <td class="text-left">State</td>
+            <td class="text-left">{users.location.state}</td>
+        </tr>
+        <tr>
+            <td class="text-left">Timezone</td>
+            <td class="text-left">{users.location.timezone.description}</td>
+        </tr>
+        <tr>
+            <td class="text-left">Email</td>
+            <td class="text-left">{users.email}</td>
+        </tr>
+        <tr>
+            <td class="text-left">Phone</td>
+            <td class="text-left">{users.phone}</td>
+        </tr>
+        </tbody>
+      </table></>
